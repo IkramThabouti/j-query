@@ -1,0 +1,30 @@
+#img1{
+    background-image: url("../res/aqua.jpg");
+    height:200px;
+    width:30%;
+    display:flex;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+#img2{
+    background-image: url("../res/lantern.jpg");
+    height:200px;
+    width:30%;
+    display:flex;
+    margin-left:2%;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+}
+.images{
+    display: flex;
+}
+button{
+    cursor: pointer;
+    display:none;
+}
+#red{
+    display:inherit;
+}

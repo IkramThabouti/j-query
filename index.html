@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jquery</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+<body>
+<div id="ex1" class="modal">
+    This is the first image
+    <a href="#" rel="modal:close">Close</a>
+</div>
+<div id="ex2" class="modal">
+        This is the second image
+        <a href="#" rel="modal:close">Close</a>
+</div>
+<center>
+    <div class="images">
+        <div id="img1" class="image-hover">
+            <a href="#ex1" rel="modal:open">
+                <button class="bt">View More</button>
+            </a>
+        </div>
+        <div id="img2" class="image-hover">
+            <a href="#ex2" rel="modal:open">
+                <button class="bt">View More</button>
+            </a>
+        </div>
+    </div>
+    <p class="test">ezaezaeaeaeaezaezaea</p>
+    <button id="red">Make selected red</button>
+</center>
+</body>
+<script src="js/script.js"></script>
+</html>
